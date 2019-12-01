@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+pep8 = "*"
+autopep8 = "*"
+pycodestyle = "*"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+markdown = "*"
+django-filter = "*"
+django-cors-headers = "*"
+pep8 = "*"
+pyjwt = "*"
+cryptography = "*"
+channels = "*"
+channels-redis = "*"
+
+[requires]
+python_version = "3.8"
